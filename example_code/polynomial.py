@@ -1,8 +1,7 @@
 from numbers import Number
 
 
-
-class Polynomial:
+class Polynomial:  # noqa F401
 
     def __init__(self, coefs):
         self.coefficients = coefs
